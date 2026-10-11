@@ -1,9 +1,17 @@
 {
-  "name": "ztfc-upstream-fixture",
-  "version": "0.1.0",
+  "name": "ztfc-fixture-npm",
+  "version": "1.0.0",
   "private": true,
-  "description": "Test fixture for the ai-dossier zero-trust contribution probe",
-  "license": "MIT",
-  "type": "module",
-  "scripts": { "test": "node --test" }
+  "description": "Zero-trust gate 2 fixture: npm with package-lock.json",
+  "main": "src/duration.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "ms": "2.1.3"
+  },
+  "license": "MIT"
 }
