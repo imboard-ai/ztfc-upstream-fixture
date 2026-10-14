@@ -4,7 +4,7 @@ const ms = require('ms');
 function toSeconds(text) {
   const millis = ms(text);
   if (typeof millis !== 'number') throw new TypeError(`Invalid duration: ${text}`);
-  return Math.round(millis / 100);
+  return Math.round(millis / 1000);
 }
 
 module.exports = { toSeconds };
